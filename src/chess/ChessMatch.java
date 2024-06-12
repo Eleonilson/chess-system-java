@@ -6,7 +6,6 @@ import chess.pieces.King;
 import chess.pieces.Rook;
 
 public class ChessMatch {
-	
 	private Board board;
 	
 	public ChessMatch() {
