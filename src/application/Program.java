@@ -10,7 +10,6 @@ import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
 
-
 public class Program {
 
 	public static void main(String[] args) {
@@ -42,14 +41,12 @@ public class Program {
 			}
 			catch (ChessException e) {
 				System.out.println(e.getMessage());
-				sc.nextLine();	
-				}
+				sc.nextLine();
+			}
 			catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
-				sc.nextLine();	
-			   }
+				sc.nextLine();
+			}
 		}
-
 	}
-
 }
